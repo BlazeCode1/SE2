@@ -1,0 +1,473 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+
+}
+
+.banner {
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/website-background-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header {
+
+    width: 100%;
+    height: auto;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #155f9be2;
+
+}
+
+.logo {
+
+    width: 88px;
+    padding-left: 25px;
+
+}
+
+header ul {
+
+
+    padding-right: 50px;
+
+}
+
+header ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+
+header ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+
+header ul li::after {
+
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000000;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    transition: 0.5s;
+
+}
+
+
+header ul li:hover::after {
+
+    width: 100%;
+
+}
+
+.container {
+
+    width: 100%;
+    min-height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+
+
+}
+
+.search-bar {
+
+    width: 100%;
+    max-width: 700px;
+    background: #ffffff33;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    margin: 100px 0px 0px 0px;
+
+
+
+
+}
+
+
+
+.search-bar input {
+
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.search-bar button img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.search-bar button {
+
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: #155f9bbd;
+
+
+
+
+}
+
+.filter {
+
+
+
+    max-width: 200px;
+    width: 100%;
+    min-height: 190px;
+    max-height: 190px;
+    background: #155f9bbd;
+    border-radius: 2.5em;
+    padding: 10px 20px;
+    justify-content: left;
+    margin: 100px 0 0 40px;
+
+
+
+}
+
+.filter input {
+
+    border-radius: 0.5em;
+    width: 50%;
+    max-width: 110px;
+    height: 25px;
+    cursor: pointer;
+    justify-content: center;
+
+
+    background-color: #ffffff87;
+
+
+}
+
+.Section input {
+
+    margin: 17px 4px 0px 19px;
+
+}
+
+.Floor input {
+
+    margin: 20px 4px 1px 37px;
+
+}
+
+.OfficeNo input {
+
+    margin: 14px 4px 1px 6px;
+
+}
+
+
+
+.filter label {
+
+
+    margin: 0px 0px 1px 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+}
+
+
+.filter h2 {
+
+
+    border-radius: 60px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    background: #ffffff87;
+    margin: 0 0 0 40px;
+    padding-left: 25px;
+
+
+
+}
+
+
+.offices {
+
+
+    min-width: 900px;
+    max-width: 901px;
+    border-radius: 0.5em;
+    border-width: 1px;
+    justify-content: space-between;
+    background-color: #155f9bbd;
+    margin: auto auto 10px auto;
+    padding: 5px 0;
+    display: flex;
+
+
+}
+
+.officesub {
+
+
+    min-width: 900px;
+    max-width: 901px;
+    border-radius: 0.5em;
+    border-width: 1px;
+    justify-content: space-between;
+    background-color: #ffffff87;
+    margin: auto auto 10px auto;
+    padding: 5px 0;
+    display: flex;
+
+
+}
+
+
+
+.gruop .FO {
+
+    width: 80%;
+    margin: -200 auto -10px 250px;
+    padding-bottom: 50px;
+
+}
+
+
+
+ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 15px 60px;
+
+
+
+}
+
+.offices div ul .ODU1 {
+
+    list-style: none;
+    display: inline-block;
+    margin: 15px 46px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+
+
+
+}
+
+
+.offices div ul .ODU2 {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 0px 37px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+
+.offices div ul .ODU3 {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 0px 108px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+
+.offices div ul .ODU4 {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 0px 104px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+ul .li1 {
+
+
+    margin: 0px 35px 0px 100px;
+
+
+
+}
+
+ul .li2 {
+
+
+    margin: 0px 35px 0px 123px;
+
+
+
+}
+
+ul .li3 {
+
+
+    margin: 0px 25px 0px 126px;
+
+
+
+}
+
+ul .li4 {
+
+
+    margin: 0px 25px 0px 179px;
+
+
+
+}
+
+
+ul .li5 {
+
+
+    margin: 0px 25px 0px 142px;
+
+
+
+}
+
+
+ul .li6 {
+
+
+    margin: 0px 25px 0px 194px;
+
+
+
+}
+
+ul .li7 {
+
+
+    margin: 0px 25px 0px 104px;
+
+
+
+}
+
+ul .li8 {
+
+
+    margin: 0px 25px 0px 166px;
+
+
+
+}
+
+
+
+ul .OFN1 {
+
+
+    margin: 0px 0px 0px 80px;
+
+
+
+}
+
+
+ul .OFN2 {
+
+
+    margin: 0px 0px 0px 135px;
+
+
+
+}
+
+ul .OFN3 {
+
+
+    margin: 0px 0px 0px 145px;
+
+
+
+}
+
+ul .OFN4 {
+
+
+    margin: 0px 0px 0px 135px;
+
+
+
+}
+
+ul .S1 {
+
+    margin: 0px 0px 0px 74px;
+
+
+}
+
+ul .S2 {
+
+    margin: 0px 0px 0px 67px;
+
+
+}
+
+.officesub div ul li img {
+
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px -6px 0px;
+
+}
